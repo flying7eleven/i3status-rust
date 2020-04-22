@@ -642,6 +642,7 @@ Key | Values | Required | Default
 `format` | Format override | No | `"{count}"`
 `format_singular` | Format override if exactly one update is available | No | `"{count}"`
 `format_up_to_date` | Format override if no updates are available | No | `"{count}"`
+`kernel_updates_are_critical` | Mark the block as critical if official kernel updates are ready to be installed | No | `false`
 
 ### Available Format Keys
 
